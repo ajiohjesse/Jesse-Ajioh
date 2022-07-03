@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hello, my name is Jesse Ajioh. I'm a front-end web developer and UI
+      designer with experience in graphics and logo design. Contact me for your 
+      custom SEO friendly websites which can be adapted easily for personal or professional use."
+    />
+    <meta name="author" content="Jesse Ajioh" />
+    <meta
+      name="keywords"
+      content="Jesse Ajioh, web developer, UI designer, graphics designer, web designer"
+    />
+
+    <title>Jesse Ajioh - Web Developer</title>
+    <link
+      rel="shortcut icon"
+      href="./images/Jesse-Ajioh-Favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- jquery -->
+    <script src="./javascript/jquery-3.4.1.min.js"></script>
+    <!-- font awesome icons -->
+    <!-- <script
+      src="https://kit.fontawesome.com/af379dd620.js"
+      crossorigin="anonymous"
+    ></script> -->
+    <link rel="stylesheet" href="./fontawesome/css/all.css" />
+    <!-- local css -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="./game-resources/style.css" />
+  </head>
+  <body>
+    <!-- intro animation -->
+    <div class="splash-screen">
+      <h1 class="author-name">
+        <span class="name" style="color: #38a7f1">JESSE</span>
+        <span class="name" style="color: #fff">AJIOH</span>
+      </h1>
+    </div>
+
+    <!-- header -->
+    <div class="header" id="home">
+      <div class="blue-circle"></div>
+      <div class="pink-circle"></div>
+      <div class="nav">
+        <a href="./index.html"
+          ><img
+            src="./images/JA-jesse-ajioh-logo2.png"
+            alt="Jesse Logo"
+            class="logo"
+        /></a>
+
+        <nav class="links-container">
+          <div class="menu-icon">
+            <i class="fa-solid fa-bars" id="menu-bars"></i>
+            <i class="fa-solid fa-times hide" id="menu-close"></i>
+          </div>
+          <div class="links">
+            <a href="#home" class="link active" data-id="home">home </a>
+            <a href="#resources" class="link" data-id="resources">resources</a>
+            <a href="#about" class="link" data-id="about">about</a>
+            <a href="#contact" class="link"
+              ><button class="btn">Contact</button></a
+            >
+          </div>
+        </nav>
+      </div>
+      <div class="hero-text-box">
+        <h2>Front-end</h2>
+        <h1>web developer</h1>
+        <p class="name-intro">Hello, my name is Jesse Ajioh.</p>
+        <p class="desc-intro">I'm a front-end web developer and UI designer.</p>
+      </div>
+    </div>
+
+    <!-- section 1 -->
+    <div class="section">
+      <div class="cards-container">
+        <div class="service-card">
+          <i class="fa-solid fa-desktop"></i>
+          <h3>digital services</h3>
+          <p>
+            Let's get you started with all you need to thrive in the disgital
+            sphere.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="fa-solid fa-globe"></i>
+          <h3>web development</h3>
+          <p>
+            We build and deploy custom web applications that meet your needs.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="fa-solid fa-draw-polygon"></i>
+          <h3>product design</h3>
+          <p>
+            Need ideas for your product? We'll provide you with customized
+            designs.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="fa-solid fa-arrow-trend-up"></i>
+          <h3>online marketing</h3>
+          <p>
+            Let's help you generate more leads with our online markerting
+            experience.
+          </p>
+        </div>
+      </div>
+      <!-- resources section 1 image and text -->
+
+      <!-- <h2 class="service-heading">Resources</h2> -->
+      <div class="clear"></div>
+      <div class="resources">
+        <div class="resources-image-container">
+          <img src="./images/computer2.jpg" alt="" class="resources-img" />
+        </div>
+        <div class="resources-textbox">
+          <h2>engaging new audiences through a smart approach</h2>
+          <div class="heading-line">
+            <div class="heading-line-circle"></div>
+          </div>
+          <p>
+            Today with the advent of the internet, the world has become a
+            smaller place. Any kind of information is easily available and at
+            our fingertips. The world of the internet is amazing and it
+            continues to transform our lives, the way we communicate, the way we
+            receive and share information and live a quality life. <br /><br />
+            Take advantage of these opportunities and engage more people via a
+            business or corporate website.
+          </p>
+          <a href="#contact"
+            ><button class="resources-btn">Request a custom website</button></a
+          >
+        </div>
+      </div>
+      <div class="clear" id="resources"></div>
+      <div class="services">
+        <h3 class="service-heading">
+          Want to begin a career in front-end development? Start by learning the
+          fundamentals of HTML, CSS and JavaScript.
+        </h3>
+        <div class="service-card-container">
+          <div class="card">
+            <div class="icon-container">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <h2>HTML</h2>
+            <p>Learn how to set the structure of your webpages with HTML.</p>
+            <a href="./resources/html-tutorial.html">Learn more ></a>
+          </div>
+          <div class="card">
+            <div class="icon-container single">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <h2>CSS</h2>
+            <p>
+              Get materials on how to design your web pages using stylesheets.
+            </p>
+            <a href="./resources/css-tutorial.html">Learn more ></a>
+          </div>
+          <div class="card">
+            <div class="icon-container">
+              <i class="fa-brands fa-js-square"></i>
+            </div>
+            <h2>JavaScript</h2>
+            <p>
+              Learn how to program and add dynamic content to your website using
+              JavaScript.
+            </p>
+            <a href="./resources/javascript-tutorial.html">Learn more ></a>
+          </div>
+
+          <div class="card">
+            <div class="icon-container single">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <h2>website templates</h2>
+            <p>
+              Explore and download fully responsive, SEO friendly website
+              templates free for your projects.
+            </p>
+            <a href="./resources/web-templates.html">Explore ></a>
+          </div>
+        </div>
+      </div>
+      <!-- end resources -->
+    </div>
+    <!-- end section 1 -->
+
+    <!-- about section -->
+    <div class="about" id="about">
+      <div class="about-grid">
+        <div class="about-row about-me">
+          <h3>About Me</h3>
+          <div class="about-img-container">
+            <img
+              src="./images/jesse-ajioh.jpg"
+              alt="Jesse Ajioh"
+              class="about-img"
+            />
+          </div>
+          <p>
+            Hi, my name is Jesse Ajioh. I'm a front-end web developer and UI
+            designer with experience in graphics and logo design. <br /><br />
+            The bulk of my work involves determining the structure and design of
+            web pages, striking a balance between functional and aesthetic
+            design, and ensuring web design is optimized for smartphones.<br /><br />
+            <span class="colored-text">Languages I speak: </span>HTML, CSS,
+            JavaScript, Python.
+          </p>
+          <div class="social-media">
+            <a
+              class="social-media-links"
+              target="_blank"
+              href="https://www.facebook.com/rehxnation/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              class="social-media-links"
+              target="_blank"
+              href="https://m.me/rehxofficial/"
+              ><i class="fa-brands fa-facebook-messenger"></i
+            ></a>
+            <a
+              class="social-media-links"
+              target="_blank"
+              href="https://wa.me/2347017890895/"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about section -->
+
+    <!-- contact section -->
+    <div class="contact" id="contact">
+      <h2>Contact</h2>
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        class="contact-form"
+      >
+        <input
+          type="text"
+          name="name"
+          class="form-input"
+          placeholder="Your Name"
+        />
+        <input
+          type="email"
+          name="email"
+          class="form-input"
+          placeholder="Email"
+        />
+        <textarea
+          name="message"
+          class="form-textarea"
+          placeholder="Type your message. . ."
+        ></textarea>
+        <button type="submit" class="form-btn">Send</button>
+      </form>
+    </div>
+    <!-- end about section -->
+
+    <!-- Blackjack Game -->
+    <div class="game-section">
+      <h2>Feeling lucky?</h2>
+      <p class="game-rules">
+        Try my Blackjack game. 🎊🎊🎊 <br />
+        <span class="bold">RULES:</span><br />
+        To win, the sum of your cards must equal 21.<br />
+        If the sum is less than 21, you can request for a new card.<br />
+        If the sum is more than 21, you lose the game.
+      </p>
+      <div class="blackjack-container">
+        <img
+          src="./images/fireworks.gif"
+          alt="fireworks"
+          class="fireworks hide"
+        />
+
+        <h1>Blackjack</h1>
+        <p class="" id="message-el">Want to play a round?</p>
+        <!-- game cards -->
+        <div class="game-cards">
+          <div class="game-img-container">
+            <img
+              class="game-card-img"
+              src="./images/game-card2.png"
+              alt="game-card"
+            />
+          </div>
+          <div class="game-img-container">
+            <img
+              class="game-card-img"
+              src="./images/game-card2.png"
+              alt="game-card"
+            />
+          </div>
+          <div class="game-img-container">
+            <img
+              class="game-card-img"
+              src="./images/game-card2.png"
+              alt="game-card"
+            />
+          </div>
+        </div>
+        <!-- end game cards -->
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <button id="start-btn" onclick="startGame()">Start Game</button>
+        <button id="new-card-btn" onclick="newCard()">New Card</button>
+      </div>
+    </div>
+    <!-- end Blackjack Game -->
+
+    <!-- guess a card game -->
+    <div class="game">
+      <section class="game-heading">
+        <h1>Guess A Card &trade;</h1>
+
+        <p class="game-alert game-hide">Hello there</p>
+        <div class="game-details">
+          Correct Answers: <span id="answers"></span> of 8 pairs
+        </div>
+        <div class="game-details">Sneaks: <span id="sneaks"></span> left</div>
+        <div class="game-details">
+          You have <span id="lives"></span> attempts left
+        </div>
+      </section>
+      <section>
+        <div class="game-grid-section">
+          <section class="game-grid"></section>
+          <div class="game-grid-cover">
+            <div class="game-card-cover" data-id="1"></div>
+            <div class="game-card-cover" data-id="2"></div>
+            <div class="game-card-cover" data-id="3"></div>
+            <div class="game-card-cover" data-id="4"></div>
+            <div class="game-card-cover" data-id="5"></div>
+            <div class="game-card-cover" data-id="6"></div>
+            <div class="game-card-cover" data-id="7"></div>
+            <div class="game-card-cover" data-id="8"></div>
+            <div class="game-card-cover" data-id="9"></div>
+            <div class="game-card-cover" data-id="10"></div>
+            <div class="game-card-cover" data-id="11"></div>
+            <div class="game-card-cover" data-id="12"></div>
+            <div class="game-card-cover" data-id="13"></div>
+            <div class="game-card-cover" data-id="14"></div>
+            <div class="game-card-cover" data-id="15"></div>
+            <div class="game-card-cover" data-id="16"></div>
+          </div>
+        </div>
+        <section class="game-footer">
+          <button class="game-start-btn">Reset Game</button>
+          <button class="game-sneek-btn">Sneak a Peek</button>
+          <button class="game-stop-btn">Show All Cards</button>
+        </section>
+      </section>
+      <!-- <section class="game-instruction">
+        <p class="game-instruction-text">
+          Instructions:<br /><br />
+          > For each selected card, choose a corresponding card until all cards
+          are displayed. <br /><br />
+          > Use the "Sneak a Peak" button to briefly display all cards.<br /><br />
+          > The "Show All Cards" button will end the game and display all cards
+          while the "Reset Game" button will cancel the current session and
+          restart the game.
+        </p>
+      </section> -->
+    </div>
+    <!-- end guess a card game -->
+
+    <div class="footer">
+      <p>
+        Copyright &copy; <span class="footer-year">2022</span>. Designed with
+        <i class="fa fa-heart"></i> by Jesse Ajioh
+      </p>
+      <div class="partners">
+        <h3>Partners:</h3>
+        <img
+          src="./images/visual-studio-code.png"
+          alt="vs-code"
+          class="partner-icon"
+        />
+        <img src="./images/github.svg" alt="github" class="partner-icon" />
+        <img src="./images/codepen.svg" alt="codepen" class="partner-icon" />
+        <img src="./images/netlify.svg" alt="netlify" class="partner-icon" />
+      </div>
+    </div>
+
+    <script src="./javascript/splash-screen.js"></script>
+    <script src="../javascript/app.js"></script>
+    <script src="./javascript/blackjack-game.js"></script>
+    <script src="./game-resources/game-app.js"></script>
+  </body>
+</html>

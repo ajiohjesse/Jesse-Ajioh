@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hello, my name is Jesse Ajioh. I'm a front-end web developer and UI
+      designer with experience in graphics and logo design. Begin your career in front-end web development by 
+      learning the basics of JavaScript."
+    />
+    <meta name="author" content="Jesse Ajioh" />
+    <meta
+      name="keywords"
+      content="Jesse Ajioh, web developer, UI designer, graphics designer, web designer, JavaScript tutorial, learn JavaScript"
+    />
+
+    <title>Jesse Ajioh - JavaScript Tutorial</title>
+    <link
+      rel="shortcut icon"
+      href="../images/Jesse-Ajioh-Favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome icons -->
+
+    <link rel="stylesheet" href="../fontawesome/css/all.css" />
+
+    <!-- local css -->
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/responsive.css" />
+    <link rel="stylesheet" href="../styles/tutorial.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header" id="home">
+      <div class="blue-circle"></div>
+      <div class="pink-circle"></div>
+      <div class="nav fix-nav">
+        <a href="../index.html"
+          ><img
+            src="../images/JA-jesse-ajioh-logo2.png"
+            alt="Jesse Logo"
+            class="logo"
+        /></a>
+
+        <nav class="links-container">
+          <div class="menu-icon">
+            <i class="fa-solid fa-bars" id="menu-bars"></i>
+            <i class="fa-solid fa-times hide" id="menu-close"></i>
+          </div>
+          <div class="links">
+            <a href="../index.html" class="link">home </a>
+            <a href="./html-tutorial.html" class="link">Html</a>
+            <a href="./css-tutorial.html" class="link">Css</a>
+            <a href="./javascript-tutorial.html" class="link active"
+              >JavaScript</a
+            >
+          </div>
+        </nav>
+      </div>
+      <div class="hero-text-box">
+        <h2>JavaScript</h2>
+        <h1>Tutorial</h1>
+        <p class="name-intro">Learn the basics of</p>
+        <p class="desc-intro">Cascading JavaScript.</p>
+      </div>
+    </div>
+
+    <!-- section 1 -->
+    <div class="section">
+      <!-- responsive grid -->
+      <div class="container">
+        <h3 class="error-msg hide">
+          ERROR: Resouces unable to load. Please refresh this page.
+        </h3>
+        <main class="grid"></main>
+      </div>
+      <!-- end responsive grid -->
+    </div>
+    <!-- end section 1 -->
+
+    <!-- about section -->
+    <div class="about" id="about">
+      <div class="about-grid">
+        <div class="about-row about-me">
+          <h3>About Me</h3>
+          <div class="about-img-container">
+            <img
+              src="../images/jesse-ajioh.jpg"
+              alt="Jesse Ajioh"
+              class="about-img"
+            />
+          </div>
+          <p>
+            Hi, my name is Jesse Ajioh. I'm a front-end web developer and UI
+            designer with experience in graphics and logo design. <br /><br />
+            The bulk of my work involves determining the structure and design of
+            web pages, striking a balance between functional and aesthetic
+            design, and ensuring web design is optimized for smartphones.<br /><br />
+            <span class="colored-text">Languages I speak: </span>HTML, CSS,
+            JavaScript, Python.
+          </p>
+          <div class="social-media">
+            <a
+              class="social-media-links"
+              target="_blank"
+              href="https://www.facebook.com/rehxnation/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              class="social-media-links"
+              target="_blank"
+              href="https://m.me/rehxofficial/"
+              ><i class="fa-brands fa-facebook-messenger"></i
+            ></a>
+            <a
+              class="social-media-links"
+              target="_blank"
+              href="https://wa.me/2347017890895/"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about section -->
+
+    <!-- contact section -->
+    <div class="contact" id="contact">
+      <h2>Contact</h2>
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        class="contact-form"
+      >
+        <input
+          type="text"
+          name="name"
+          class="form-input"
+          placeholder="Your Name"
+        />
+        <input
+          type="email"
+          name="email"
+          class="form-input"
+          placeholder="Email"
+        />
+        <textarea
+          name="message"
+          class="form-textarea"
+          placeholder="Type your message. . ."
+        ></textarea>
+        <button type="submit" class="form-btn">Send</button>
+      </form>
+    </div>
+    <!-- end about section -->
+
+    <div class="footer">
+      <p>
+        Copyright &copy; <span class="footer-year">2022</span>. Designed with
+        <i class="fa fa-heart"></i> by Jesse Ajioh
+      </p>
+      <div class="partners">
+        <h3>Partners:</h3>
+        <img
+          src="../images/visual-studio-code.png"
+          alt="vs-code"
+          class="partner-icon"
+        />
+        <img src="../images/github.svg" alt="github" class="partner-icon" />
+        <img src="../images/codepen.svg" alt="codepen" class="partner-icon" />
+        <img src="../images/netlify.svg" alt="netlify" class="partner-icon" />
+      </div>
+    </div>
+    <script src="../javascript/javascript-tutorial.js"></script>
+  </body>
+</html>

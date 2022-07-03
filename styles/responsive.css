@@ -1,0 +1,252 @@
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-top: 80px;
+  }
+
+  .header {
+    height: 450px;
+  }
+
+  .nav {
+    background-color: #000;
+    position: fixed;
+    top: 0;
+  }
+
+  .links-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    width: 100%;
+    max-width: var(--max-width);
+    background-color: #000;
+    top: 0px;
+    padding: 30px 50px;
+    z-index: -1;
+  }
+
+  .menu-icon {
+    align-self: flex-end;
+    cursor: pointer;
+  }
+
+  #menu-bars,
+  #menu-close {
+    transition: 0.2s ease;
+  }
+
+  #menu-bars:hover,
+  #menu-close:hover {
+    color: #38a7f1;
+  }
+
+  .link {
+    margin-top: 1.8rem;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+  }
+
+  .show-links {
+    height: 250px;
+  }
+
+  .active {
+    color: var(--main-clr);
+    text-decoration: none;
+  }
+
+  .btn.active-btn {
+    background-color: transparent;
+    color: var(--main-clr);
+    border: 2px solid #dadada;
+  }
+
+  .fa-bars,
+  .fa-times {
+    display: contents;
+  }
+
+  .logo {
+    place-self: left;
+  }
+
+  .hero-text-box h1 {
+    font-size: 3.5rem;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    top: -100px;
+  }
+
+  .section {
+    padding-top: 350px;
+  }
+
+  .service-card-container {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+  }
+
+  .resources {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    place-items: center;
+  }
+
+  .resources-image-container {
+    width: 100%;
+  }
+
+  .resources-img {
+    border-radius: 20px;
+  }
+
+  .contact-form {
+    width: 70%;
+  }
+
+  .partners {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .logo {
+    margin-left: 50px;
+  }
+
+  .blue-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid var(--main-clr);
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    opacity: 0.2;
+  }
+  .pink-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #ff0095;
+    position: absolute;
+    top: -50px;
+    right: 0;
+    opacity: 0.2;
+  }
+
+  .header {
+    height: 400px;
+  }
+
+  .hero-text-box h1 {
+    font-size: 2.5rem;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding-top: 750px;
+  }
+
+  .service-card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .hero-text-box p {
+    font-size: 12px;
+  }
+
+  .section {
+    padding-top: 780px;
+  }
+
+  .about-img-container {
+    height: 120px;
+    width: 120px;
+  }
+
+  .about-me {
+    padding: 2rem 1rem;
+  }
+
+  .about-me h3 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .blue-circle {
+    width: 100px;
+    height: 100px;
+    left: 100px;
+  }
+}
+
+@media screen and (max-width: 358px) {
+  .header {
+    height: 450px;
+  }
+
+  .section {
+    padding-top: 810px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 383px) {
+  .header {
+    height: 450px;
+  }
+}
+
+/* game cards responsive */
+
+@media screen and (max-width: 800px) {
+  .game-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 580px) {
+  .game-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+  }
+}
+@media screen and (max-width: 430px) {
+  .game-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+}
+@media screen and (max-width: 280px) {
+  .game-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+}
